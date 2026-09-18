@@ -1,0 +1,15 @@
+interface:
+  display_name: 图书爆款视频营销流水线
+  short_description: 从爆款视频表格生成分析报告、原声混剪脚本与竖屏粗剪成片
+  default_prompt: Use $book-video-marketing-pipeline to analyze my uploaded viral-video
+    spreadsheet, generate an evidence-based report and original-footage mashup scripts,
+    then create rough-cut videos.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

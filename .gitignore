@@ -1,0 +1,26 @@
+# System and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Inputs and generated project artifacts
+*.xlsx
+*.xlsm
+*.csv
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+transcripts/
+downloads/
+outputs/
+reports/
+roughcuts/
+
